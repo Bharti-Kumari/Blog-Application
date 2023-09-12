@@ -1,0 +1,44 @@
+.update-post h1 {
+  text-align: center;
+}
+.update-post .form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  text-align: start;
+  /* align-items: flex-start; */
+}
+.update-post .form-field label {
+  margin-bottom: 9px;
+}
+.update-post .form-field input {
+  height: 37px;
+  border: 1px solid #e1e1e1;
+  border-radius: 3px;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.update-post .form-field textarea {
+  border: 1px solid #e1e1e1;
+  height: 400px;
+  font-size: 18px;
+  padding-left: 10px;
+  border-radius: 3px;
+  padding-top: 5px;
+}
+.update-post-btn {
+  height: 33px;
+  background: #319ddb;
+  border: 0;
+  color: #fff;
+  padding: 8px;
+  font-size: 15px;
+  border-radius: 3px;
+  cursor: pointer;
+  text-align: center;
+}
+.update-post-btn:hover {
+  text-decoration: underline;
+  background: #7ebce0;
+}

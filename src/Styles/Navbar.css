@@ -1,0 +1,26 @@
+#nav {
+  list-style-type: none;
+  padding: 5px;
+  display: flex;
+  background-color: black;
+  height: 50px;
+  margin-top: 0px;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+
+  /* Add the blur effect */
+  /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+}
+#nav li {
+  margin-left: 10px;
+}
+#nav li a {
+  text-decoration: none;
+  color: #e3dede;
+}
+#nav li a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,81 @@
+.post {
+  display: flex;
+  flex-direction: row;
+  padding: 10%;
+  align-items: center;
+  justify-content: space-between;
+  border: 5px double #9f9f9f;
+  padding: 10px 10px;
+  border-radius: 15px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  min-width: 250px;
+}
+
+.post a {
+  text-decoration: none;
+}
+.post .blog-decription-ctn {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: first baseline;
+  width: 50%;
+}
+.post .blog-decription-ctn p {
+  font-size: large;
+  margin-top: 0px;
+  width: 300px;
+  text-align: left;
+}
+
+.post h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  font-weight: bold;
+  color: black;
+}
+.post h3:hover {
+  color: #2196f3;
+  cursor: pointer;
+}
+.post p {
+  font-size: 13px;
+  margin: 0;
+}
+.post #message {
+  display: none;
+}
+.post:hover #message {
+  display: block;
+}
+.btn-ctn {
+  display: flex;
+  justify-content: space-around;
+}
+#delete-btn {
+  color: black;
+  background-color: lightcoral;
+  border-radius: 10px;
+  width: 70px;
+  height: 30px;
+  margin-left: 20%;
+}
+#delete-btn:hover {
+  background-color: rgb(226, 151, 151);
+  text-decoration: underline;
+  cursor: pointer;
+}
+#update-btn {
+  color: black;
+  background-color: lightskyblue;
+  border-radius: 10px;
+  width: 70px;
+  height: 30px;
+}
+#update-btn:hover {
+  background-color: rgb(113, 194, 235);
+  text-decoration: underline;
+  cursor: pointer;
+}

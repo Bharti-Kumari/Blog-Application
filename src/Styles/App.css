@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+  display: flex;
+}
+.container {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+h3 {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}

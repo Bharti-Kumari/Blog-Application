@@ -1,0 +1,25 @@
+Styling of Navbar ---------------- (Done)
+
+Add delete and update button to posts ---------------- (Done)
+
+Add Conditional Rendering for Create Post(message)
+ if home page is empty(There is no blog)  ---------------- (Done)
+
+Click on the blog title to read blog - meassgae in the post  ---------------- (Done)
+
+Form Tag in Create Post, Imporve Working of Create Post  ---------------- (Done)
+
+Logic of Delete Button ---------------- (Done)
+
+Add about blog author ---------------- (Done)
+
+Make the fields in the form compulsory to be filled  ---------------- (Done)
+
+Logic of update button ---------------- (Done)
+
+Working Post Details page ---------------- (Done)
+
+Add firebase to the project  ---------------- (Done)
+
+
+
